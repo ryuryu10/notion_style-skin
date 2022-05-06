@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>[##_page_title_##]</title>
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" type="text/css" href="./images/reset.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="./style.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!--[if lt IE 9]>
+      <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+      <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <s_article_rep>
+            <header>
+                <nav>
+                    <div>
+                        <a href="[##_blog_link_##]" class="hover-color nav-block1">TITLES </a> /
+                        <a href="[##_article_rep_category_link_##]"
+                            class="hover-color nav-block1">[##_article_rep_category_##]</a> /
+                        <a href="[##_article_rep_link_##]" class="hover-color nav-block1">[##_article_rep_title_##]</a>
+                    </div>
+                    <div class="serach-box hover-color nav-block2">
+                        <i class="xi-search"></i>
+                        <p>검색</p>
+                    </div>
+                </nav>
+            </header>
+            <div class="mains">
+                <p class="article_title">[##_article_rep_title_##]</p>
+                <div class="article_date_area">
+                    <div class="clock_icon"><i class="xi-clock-o"></i></div>
+                    <div class="clock_icon_title">글 작성일시</div>
+                    <div class="article_date">[##_article_rep_date_##]</div>
+                </div>
+                <div class="article_date_line"></div>
+                <div class="comment-area">
+                    <s_rp>
+                        <div class="commentList">
+                            <s_rp_container>
+                                <ol>
+                                    <s_rp_rep>
+                                        <li id='[##_rp_rep_id_##]'>
+                                            <div class="[##_rp_rep_class_##]">
+                                                <span class="image">[##_rp_rep_logo_##]</span>
+                                                <span class="name">[##_rp_rep_name_##]</span>
+                                                <span class="date"> [##_rp_rep_date_##]</span>
+                                                <span class="control">
+                                                    <a href="[##_rp_rep_link_##]" class="address">&nbsp;
+                                                        <span>댓글주소</span>
+                                                    </a>
+                                                    <a href="#" onclick="[##_rp_rep_onclick_delete_##]"
+                                                        class="modify">&nbsp;
+                                                        <span>수정/삭제</span>
+                                                    </a>
+                                                    <a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write">&nbsp;
+                                                        <span>댓글쓰기</span>
+                                                    </a>
+                                                </span>
+                                                <p>[##_rp_rep_desc_##]</p>
+                                            </div>
+                                            <s_rp2_container>
+                                                <ul>
+                                                    <s_rp2_rep>
+                                                        <li id='[##_rp_rep_id_##]'>
+                                                            <div class="[##_rp_rep_class_##]">
+                                                                <span class="image">[##_rp_rep_logo_##]</span>
+                                                                <span class="name">[##_rp_rep_name_##]</span>
+                                                                <span class="date"> [##_rp_rep_date_##]</span>
+                                                                <span class="control">
+                                                                    <a href="[##_rp_rep_link_##]" class="address">&nbsp;
+                                                                        <span>댓글주소</span>
+                                                                    </a>
+                                                                    <a href="#" onclick="[##_rp_rep_onclick_delete_##]"
+                                                                        class="modify">&nbsp;
+                                                                        <span>수정/삭제</span>
+                                                                    </a>
+                                                                </span>
+                                                                <p>[##_rp_rep_desc_##]</p>
+                                                            </div>
+                                                        </li>
+                                                    </s_rp2_rep>
+                                                </ul>
+                                            </s_rp2_container>
+                                        </li>
+                                    </s_rp_rep>
+                                </ol>
+                            </s_rp_container>
+                        </div>
+                    </s_rp>
+                    
+                </div>
+                <div class="article">
+                    [##_article_rep_desc_##]
+                </div>
+            </div>
+        </s_article_rep>
+    </main>
+</body>
+
+</html>

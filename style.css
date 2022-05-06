@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'NanumGothic';
+    line-height: 1.5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+
+    /* 생략 */
+}
+
+.hover-color {
+    transition: 100ms ease-in 0s;
+}
+
+.hover-color:hover {
+    background: rgba(0, 0, 0, 0.07);
+}
+
+.nav-block1 {
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.nav-block2 {
+    padding: 8px;
+    border-radius: 3px;
+}
+
+nav {
+    font-size: 14px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 14px 0px 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+nav .xi-search {
+    font-size: 16px;
+    margin: 0px 6px 0px 0px;
+}
+
+.serach-box {
+    display: flex;
+    align-items: center;
+}
+
+.mains {
+    margin-top: 170px;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.article_title {
+    color: rgb(55, 53, 47);
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+    cursor: text;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    padding: 3px 2px;
+}
+
+.article_date_area {
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.clock_icon {
+    font-size: 20px;
+    color: #a5a4a1;
+    margin-top: 5px;
+}
+
+.clock_icon_title {
+    font-weight: 600;
+    padding-left: 7px;
+    font-size: 14px;
+    color: #a5a4a1;
+}
+
+.article_date {
+    padding-left: 50px;
+}
+
+.article_date_line {
+    width: 100%;
+    height: 1px;
+    background: rgba(55, 53, 47, 0.09);
+    margin-bottom: 8px;
+}
