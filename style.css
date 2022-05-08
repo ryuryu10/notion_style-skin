@@ -151,3 +151,12 @@ nav .xi-search {
 .comment-info .date {
     margin: 0px 6px;
 }
+
+.control a {
+    text-decoration: none;
+    color: inherit;
+    color: black;
+    background-color: #9b9a97;
+    font-size: 10px;
+    padding: 10px;
+}
